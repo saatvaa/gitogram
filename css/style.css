@@ -1,0 +1,200 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    font-size: 14px;
+}
+.git{
+    display: inline;
+    font-size: 35px;
+}
+header{
+    padding: 0px 120px;
+    width: 100%;
+    height: 276px;
+    background-color: #FAFAFA;
+}
+.members{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.members div{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 3px solid #A6328D;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    padding: 3px;
+}
+.hueta{
+    margin: 127px 121 px 33px 120px;
+    height: 116px;
+    width: 1199px;
+}
+.members_name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    height: 30px;
+    align-items: center
+}
+.members_name p{
+    width: 80px;
+    text-align: center;
+}
+.footer{
+    align-items: center;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu div{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    width: 200px;
+    height: 35px;
+}
+.menu_home{
+    height: 25.14px;
+    width: 24px;
+    background-image: url(https://www.pngplay.com/wp-content/uploads/7/Home-Logo-Background-PNG-Image.png)
+}
+.menu_profile{
+    height: 37px;
+    width: 37px;
+    background-image: url(img/%D0%B9.png)
+}
+.menu_exit{
+    height: 20.5px;
+    width: 25px;    
+    background-image: url(https://flyclipart.com/thumb2/exit-icon-740908.png)
+}
+.Josh{
+    background-image: url(img/1.png)
+}
+.Andrew{
+    background-image: url(img/2.png)
+}
+.Camille{
+   background-image: url(img/3.png) 
+}
+.Marselle{
+    background-image: url(img/4.png)
+}
+.Piter{
+    background-image: url(img/5.png)
+}
+.Can{
+    background-image: url(img/6.png)
+}
+.Iloveanime{
+    background-image: url(img/7.png)
+}
+.Diself{
+    background-image: url(img/8.png)
+}
+.Gartof{
+    background-image: url(img/9.png)
+}
+.Camilr{
+    background-image: url(img/10.png)
+}
+.containerr{
+    padding-top: 32px;
+    width: 979px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.Joshua{
+    height: 44px;
+    width: 130px;
+    background-image: url(img/2.png);
+    background-size: 44px 44px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 13px;
+    margin-bottom: 20px;
+}
+.Camille1{
+    height: 44px;
+    width: 130px;
+    background-image: url(img/3.png);
+    background-size: 44px 44px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 13px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+}
+.info{
+    width: inherit;
+    height: 173px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 8px #F1F1F1;
+    padding-left: 20px;
+    padding-top: 24px;
+    margin-bottom: 18px;
+}
+.vue{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 245px;
+    height: 28px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border-radius: 6px;
+    border-width: medium;
+    box-shadow: 1px 1px 1px 1px #F1F1F1;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    
+}
+.buttons div{
+    padding-top: 5px;
+    height: inherit;
+    text-align: center;
+    margin: 0 0;
+    width: 100%;
+    height: auto;
+}
+.one, three{
+    background-color: #FAFBFC;
+    border-right: 1px solid rgba(27, 31, 35, 0.15)
+}
+.three{
+    border-left: 1px solid rgba(27, 31, 35, 0.15)
+}
+.pisanina{
+    font-size: 14px;
+    line-height: 2;
+}
+.may{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+}
