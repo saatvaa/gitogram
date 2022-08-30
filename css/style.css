@@ -2,14 +2,26 @@
 
 
 *{
+    text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: inter;
     font-size: 14px;
 }
+/*a:hover {
+    border-bottom: 2px solid blue;
+    margin: auto 0;
+   }
+*/
+a{
+    color: black;
+    font-family: Inter;
+}
 .git{
-    display: inline;
+    font-weight: 700;
+    float: left;
+    width: 80px;
     font-size: 35px;
 }
 header{
@@ -19,11 +31,14 @@ header{
     background-color: #FAFAFA;
 }
 .members{
+    max-width: 1199px;
+    height: 116px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 .members div{
+    margin: 0 19px;
     width: 80px;
     height: 80px;
     border-radius: 40px;
@@ -39,29 +54,27 @@ header{
     height: 116px;
     width: 1199px;
 }
-.members_name{
-    display: flex;
-    justify-content: space-around;
+.eboy{
+    display: block;
     font-size: 12px;
-    height: 30px;
-    align-items: center
-}
-.members_name p{
-    width: 80px;
     text-align: center;
+    margin-top: 80px;
 }
-.footer{
+.headername{
+    max-width: 1199px;
     align-items: center;
     height:150px;
     display: flex;
     justify-content: space-between;
 }
-.menu div{
+.menu>a{
+    display: block;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .menu{
+    float: right;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -116,45 +129,33 @@ header{
 }
 .containerr{
     padding-top: 32px;
-    width: 979px;
-    display: block;
+    max-width: 1055px;
     margin-left: auto;
     margin-right: auto
 }
-.Joshua{
+.chelik{
     height: 44px;
-    width: 130px;
-    background-image: url(img/2.png);
     background-size: 44px 44px;
     background-position: left;
     background-repeat: no-repeat;
-    text-align: right;
     font-size: 18px;
     font-weight: bold;
-    padding-top: 13px;
-    margin-bottom: 20px;
+    margin: 32px 0px 16px;
+    padding-left: 54px;
+    padding-top: 8px;
 }
-.Camille1{
-    height: 44px;
-    width: 130px;
-    background-image: url(img/3.png);
-    background-size: 44px 44px;
-    background-position: left;
-    background-repeat: no-repeat;
-    text-align: right;
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 13px;
-    margin-bottom: 20px;
-    margin-top: 24px;
+.jo{
+    background-image: url(img/2.png)
+}
+.cam{
+    background-image: url(img/3.png)
 }
 .info{
     width: inherit;
     height: 173px;
     border-radius: 20px;
     box-shadow: 8px 8px 8px 8px #F1F1F1;
-    padding-left: 20px;
-    padding-top: 24px;
+    padding: 24px 20px;
     margin-bottom: 18px;
 }
 .vue{
@@ -163,38 +164,26 @@ header{
     padding-bottom: 15px;
 }
 .buttons{
-    display: flex;
-    justify-content: space-around;
-    width: 245px;
-    height: 28px;
+    display: inline-block;
     margin-top: 40px;
-    margin-bottom: 35px;
     border-radius: 6px;
-    border-width: medium;
     box-shadow: 1px 1px 1px 1px #F1F1F1;
-    border: 1px solid rgba(27, 31, 35, 0.15);
-    
 }
-.buttons div{
-    padding-top: 5px;
-    height: inherit;
+.btn{
+    padding: 6px 12px;
+    font-size: 12px;
     text-align: center;
-    margin: 0 0;
-    width: 100%;
-    height: auto;
+    border: 1px solid rgba(27, 31, 35, 0.15);
 }
-.one, three{
+.grey{
     background-color: #FAFBFC;
-    border-right: 1px solid rgba(27, 31, 35, 0.15)
-}
-.three{
-    border-left: 1px solid rgba(27, 31, 35, 0.15)
 }
 .pisanina{
     font-size: 14px;
     line-height: 2;
 }
 .may{
+    margin-top: 5px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.4);
 }
